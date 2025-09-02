@@ -1,71 +1,53 @@
-Overview
-This is a responsive landing page for Scout, an AI platform for teams, built with Next.js and React. The design is based on the provided Figma prototype and includes smooth animations using Framer Motion.
+# 📚 Electro-Pi-Task: A Next.js Website
 
-Live Preview
-[Add your live preview link here after deployment]
+A sleek and modern website built with Next.js, React, and Tailwind CSS, showcasing captivating visuals and intuitive navigation.
 
-Technologies Used
-Next.js 14
+### ✨ Key Features
 
-React
+1. **Responsive Design:** The website adapts seamlessly to different screen sizes, providing an optimal user experience across devices.
+2. **Visually Appealing Design:** Utilizes high-quality SVG images and a clean layout for an engaging user experience.
+3. **Intuitive Navigation:** Easy-to-use navigation allows users to explore different sections of the website effortlessly.
+4. **Component-Based Architecture:** Built using reusable components for maintainability and scalability.
+5. **Next.js App Router:** Leverages the Next.js App Router for improved performance.
 
-Tailwind CSS
+### 🛠️ Tech Stack
 
-Framer Motion (for animations)
+**Frontend:**
 
-Next/Image (for optimized images)
+- Next.js
+- Tailwind CSS
+- Framer Motion
 
-Project Structure
+### 📁 Project Structure
 
-├── components/
-│ ├── Button.jsx
-│ ├── Container.jsx
-│ ├── Footer.jsx
-│ └── Navbar.jsx
-├── sections/
-│ ├── Companies.jsx
-│ ├── Feature.jsx
-│ ├── Hero.jsx
-│ ├── Pricing.jsx
-│ └── Testimonials.jsx
-├── app/
-│ ├── globals.css
-│ ├── layout.js
-│ └── page.js
-└── public/
-└── [various images and icons]
+```
+Electro-Pi-Task/
+├── public/             # Static assets (images, icons, etc.)
+│   └── ...             # Various SVG and PNG images
+├── src/                # Main source code directory
+│   ├── app/            # Next.js App Router
+│   │   ├── components/ # Reusable UI components (Button, Container, Footer, Navbar)
+│   │   ├── layout.js   # Website layout
+│   │   ├── page.js     # Main page content
+│   │   └── sections/   # Sections of the website (Companies, Feature, Hero, Pricing, Testimonials)
+│   │       └── ...     # Individual section components
+│   ├── globals.css     # Global CSS styles
+│   └── ...             # Other files
+└── package.json       # Project dependencies and scripts
+```
 
-Setup Instructions
-Clone the repository
+### 🚀 Installation and Setup
 
-Install dependencies: npm install
+1. **Prerequisites:** Node.js 16+ (LTS version recommended) and npm or yarn.
+2. **Clone the repository:** `git clone https://github.com/moashraf41/Electro-Pi-Task.git`
+3. **Navigate to the project directory:** `cd Electro-Pi-Task`
+4. **Install dependencies:** `npm install`
+5. **Start the development server:** `npm run dev`
 
-Run the development server: npm run dev
+### 📋 Usage
 
-Open http://localhost:3000 in your browser
+1. Open your web browser and navigate to `http://localhost:3000`.
 
-Notes & Assumptions
-All images are placed in the public folder as referenced in the components
+### 🔧 Environment Variables
 
-The design uses a dark theme with gradient backgrounds
-
-Responsive breakpoints are implemented for mobile, tablet and desktop
-
-Animation timing and effects follow the design requirements
-
-The page includes hover states and interactive elements as specified
-
-Code Quality Features
-Component-based architecture for maintainability
-
-Consistent styling approach with Tailwind CSS
-
-Responsive design implementation
-
-Semantic HTML structure
-
-Proper image optimization with Next.js Image component
-
-Clean animation implementation with Framer Motion
-
-The implementation follows modern React/Next.js best practices and creates a visually appealing, responsive landing page that matches the provided design closely.
+No environment variables are explicitly defined in this project.
