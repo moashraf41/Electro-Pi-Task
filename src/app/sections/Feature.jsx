@@ -28,7 +28,7 @@ const Features = () => {
         >
           <div className="relative w-full h-auto">
             <Image
-              src="/Features.svg"
+              src="/features.svg"
               alt="Features"
               width={1200}
               height={800}

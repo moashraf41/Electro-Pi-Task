@@ -175,7 +175,7 @@ const Hero = () => {
             className="w-fit mx-auto px-3 sm:px-4 flex gap-2 items-center justify-center py-2 rounded-full bg-white/10 backdrop-blur-sm text-xs sm:text-sm cursor-pointer transition-colors duration-300"
           >
             <Image
-              src="/logo.svg"
+              src="/Logo.svg"
               alt="Logo"
               width={50}
               height={14}

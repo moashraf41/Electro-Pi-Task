@@ -76,7 +76,7 @@ const Navbar = () => {
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
         >
           <Image
-            src="/logo.svg"
+            src="/Logo.svg"
             alt="Logo"
             width={90}
             height={16}
