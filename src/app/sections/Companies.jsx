@@ -124,7 +124,7 @@ const Companies = () => {
               <motion.div
                 key={company.name}
                 variants={logoVariants}
-                className="group cursor-pointer border border-[#1F1F1F] flex items-center justify-center min-w-[300px] min-h-[110px]  sm:min-h-[120px] relative z-20"
+                className="group cursor-pointer border border-[#1F1F1F] flex items-center justify-center min-w-[300px] min-h-[110px] sm:min-h-[120px] relative z-20"
               >
                 <motion.div variants={imageVariants} whileHover="hover">
                   <Image
@@ -133,6 +133,7 @@ const Companies = () => {
                     width={company.width}
                     height={company.height}
                     priority
+                    className="transition duration-300 group-hover:brightness-0 group-hover:invert"
                   />
                 </motion.div>
               </motion.div>
@@ -161,7 +162,7 @@ const Companies = () => {
               <motion.div
                 key={company.name}
                 variants={logoVariants}
-                className="group cursor-pointer border border-[#1F1F1F] flex items-center justify-center min-w-[300px] min-h-[110px]  sm:min-h-[120px] relative z-20"
+                className="group cursor-pointer border border-[#1F1F1F] flex items-center justify-center min-w-[300px] min-h-[110px] sm:min-h-[120px] relative z-20"
               >
                 <motion.div variants={imageVariants} whileHover="hover">
                   <Image
@@ -170,6 +171,7 @@ const Companies = () => {
                     width={company.width}
                     height={company.height}
                     priority
+                    className="transition duration-300 group-hover:brightness-0 group-hover:invert"
                   />
                 </motion.div>
               </motion.div>

@@ -140,7 +140,7 @@ const Testimonials = () => {
                   className={`w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 border-2 flex items-center justify-center transition-all duration-300 ${
                     activeTestimonial === index
                       ? "border-white"
-                      : "border-[#E5E7EB]"
+                      : "border-neutral-600"
                   }`}
                 >
                   <Image
@@ -218,7 +218,7 @@ const Testimonials = () => {
                     className={`w-24 h-24 sm:w-28 sm:h-28 lg:w-32 lg:h-32 border-2 flex items-center justify-center transition-all duration-300 ${
                       activeTestimonial === actualIndex
                         ? "border-white"
-                        : "border-[#E5E7EB]"
+                        : "border-neutral-600"
                     }`}
                   >
                     <Image
